@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import style from "../styles/me.module.css"
 import Image from 'next/image'
-import me from '../../../public/images/me.jpg'
+import me from '../../../assets/images/me.jpg'
 import Jobs from "./Jobs";
 
 const Me = (props: any) => {
