@@ -1,8 +1,17 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import localFont from 'next/font/local'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const materialSymbols = localFont({
+  variable: '--font-family-symbols',
+  style: 'normal',
+  src: '../../node_modules/material-symbols/material-symbols-rounded.woff2',
+  display: 'block',
+  weight: '100 700',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${materialSymbols.variable}`}>
       <body className={inter.className}>{children}</body>
     </html>
   )
