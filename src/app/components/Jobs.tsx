@@ -8,7 +8,7 @@ const Jobs = () => {
     <div className={style.jobsContainer}>
       <div className={style.card}>
         <h1>It`Ready</h1>
-        <p>Its's Ready Application made with Spring Boot and
+        <p>Its&apos;s Ready Application made with Spring Boot and
           Angular e Ionic to manage services.</p>
       </div>
 

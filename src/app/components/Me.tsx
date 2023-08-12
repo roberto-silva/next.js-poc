@@ -13,8 +13,8 @@ const Me = (props: any) => {
         alt="Picture of the author"
         width={250}
         height={250}/>
-        
-        <p className={style.p}> I'm a Java developer specializing in Spring and Angular,
+
+        <p className={style.p}> I&apos;m a Java developer specializing in Spring and Angular,
              seamlessly blending powerful backend capabilities with 
              user-friendly frontend interfaces. With a passion for 
              innovative solutions and a collaborative approach, 
